@@ -1,0 +1,13 @@
+<p>Je vais compter jusqu'à <%= num %></p>
+</br>
+<p>
+	<% 
+	 for(var i=0; i<=num; i++){
+	%>
+		<% if(i==10){ %>
+			<%= i %>.
+		<% }else{ %>
+			<%= i %>,
+		<% } %>
+	<% } %>
+</p>
